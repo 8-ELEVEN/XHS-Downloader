@@ -144,7 +144,6 @@ svg {
 }
 
 .sidebar-close {
-    display: none;
     margin-left: auto;
     color: #aeb2b9;
 }
@@ -249,7 +248,6 @@ svg {
 }
 
 .mobile-menu {
-    display: none;
     margin-right: 12px;
 }
 
@@ -334,6 +332,11 @@ svg {
 .icon-button:hover:not(:disabled) {
     background: #f0f1f3;
     color: var(--text);
+}
+
+.mobile-menu,
+.sidebar-close {
+    display: none;
 }
 
 .icon-button:disabled {
@@ -2013,6 +2016,8 @@ input:checked + .checkmark {
     gap: 7px;
     margin-right: auto;
     color: var(--muted);
+    font-size: 13px;
+    line-height: 21px;
 }
 
 .about-update-result svg {
